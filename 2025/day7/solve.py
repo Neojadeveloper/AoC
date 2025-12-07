@@ -68,9 +68,6 @@ def part_two():
         
         paths = new_paths
     
-    # Oxirgi qatorda qolgan barcha timeline'lar
-    timelines += sum(paths.values())
-    
     print(timelines)
 
 def rows():
